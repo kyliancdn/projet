@@ -1,0 +1,19 @@
+input {
+    width: 320px;
+    height: 40px;
+}
+
+.coord {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.coord .twcoord:last-child {
+    margin-block-start: 30px;
+}
+.twcoord {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
