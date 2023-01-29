@@ -1,182 +1,630 @@
-* {
-    margin: 0;
-    list-style: none;
-    font-family: 'Nunito Sans', sans-serif;
+@media only screen and (min-width : 1024px) { 
+    * {
+        margin: 0;
+        list-style: none;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+
+    /* Header */
+
+    header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-block: 50px;
+    }
+
+    header img {
+        margin-inline-start: 5.313rem;
+    }
+
+    header ul {
+        display: flex;
+        justify-content: end;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    header ul li {
+        margin-right: 8rem;
+    }
+
+    header ul li p {
+        font-size: 18px;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+
+    header ul li:last-child {
+        margin-inline-end: 5rem;
+    }
+
+    ul li:first-child {
+        color: #FA4A0C;
+    }
+    /* Main */
+
+    #principal {
+        background-image: url(img/Rectangle\ 48.png);
+        background-size: cover;
+        width: 100%;
+        height: 51.063rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #principal p {
+        color: white;
+        text-align: center;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+    }
+
+    #principal p:first-child {
+        margin-top: 4em;
+        margin-block-end: 20px;
+        font-size: 25px;
+    }
+
+    #principal p:not(:first-child) {
+        font-size: 70px;
+    }
+
+    #imgPrincipal {
+        width: 100%;
+        opacity: 0%;
+    }
+
+    main h2 {
+        text-align: center;
+        width: 100%;
+    }
+
+    #pizza {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .pizza {
+        border: solid #FA4A0C;
+        width: 28.75rem;
+    }
+
+    .pizza *:not(.buy, img){
+        margin: 15px;
+        margin-left: 20px;
+    }
+
+    .pizza img {
+        width: 26.25rem;
+        margin: 20px 20px 0 20px;
+    }
+    .tprod {
+        font-size: 2.25rem;
+        font-weight: bold;
+    }
+
+    .pizza .pBuy {
+        margin-top: 45px;
+    }
+
+    .buy {
+        display: flex;
+        justify-content: end;
+    }
+
+    .buy p {
+        padding: 12px 40px;
+        border-radius: 50px;
+        background-color: #FA4A0C;
+        color: white;
+    }
+
+    main h2 {
+        margin-bottom: 65px;
+    }
+
+    main h2:first-child {
+        margin-top: 30px;
+    }
+
+    .hr {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    hr {
+        width: 65%;
+        margin: 65px 0;
+    }
+    #problem {
+        width: 75%;
+        height: 52.313rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-inline-start: 5.25rem;
+    }
+    
+    .tproblem {
+        font-size: 1.55rem;
+        line-height: 3rem;
+    }
+
+
+    /* Footer */
+
+    #princFoot {
+        background-image: url(img/Rectangle47.png);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 537px;
+    }
+
+    .princFoot {
+        margin-block-start: 150px;
+        color: white;
+        font-size: 40px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 65%;
+        height: 80px;
+        margin-block-end: 85px;
+        margin-inline: auto;
+    }
+
+    footer p {
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+        font-size: 0.7rem;
+        color: rgb(82, 82, 82);
+    }
+
+    #reseau {
+        display: flex;
+        align-items: center;
+    }
+
+    #reseau img:nth-child(2){
+        margin-inline: 30px;
+    }
 }
 
-/* Header */
+@media only screen and (min-width :768px) and (max-width : 1023px) {
+    * {
+        margin: 0;
+        list-style: none;
+        font-family: 'Nunito Sans', sans-serif;
+    }
 
-header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-block: 50px;
+    /* Header */
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-block-end: 4%;
+    }
+
+    header ul {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 2%;
+        padding: 0;
+    }
+
+    header ul li {
+        margin-inline: 1rem;
+    }
+
+    header ul li p {
+        font-size: 18px;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+
+    ul li:first-child {
+        color: #FA4A0C;
+    }
+    /* Main */
+
+    ul li:first-child {
+        margin-inline-start: 2rem;
+    }
+
+    ul li:last-child {
+        margin-inline-end: 2rem;
+    }
+
+    #principal {
+        background-image: url(img/Rectangle\ 48.png);
+        background-size: cover;
+        width: 100%;
+        height: 618px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #principal p {
+        color: white;
+        text-align: center;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+    }
+
+    #principal p:first-child {
+        margin-top: 9rem;
+        margin-block-end: 20px;
+        font-size: 1rem;
+    }
+
+    #principal p:not(:first-child) {
+        font-size: 3rem;
+    }
+
+    #imgPrincipal {
+        width: 100%;
+        opacity: 0%;
+    }
+
+    main h2 {
+        text-align: center;
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    #pizza {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .pizza {
+        border: solid #FA4A0C;
+        width: 20.875rem;
+        margin-block-end: 1.563rem ;
+    }
+
+    .pizza *:not(.buy, img){
+        margin: 15px;
+        margin-left: 20px;
+    }
+
+    .pizza img {
+        width: 18.375rem;
+        margin: 20px 20px 0 20px;
+    }
+    .tprod {
+        font-size: 1.625rem;
+        font-weight: bold;
+    }
+
+    .pizza .pBuy {
+        margin-top: 45px;
+    }
+
+    .buy {
+        display: flex;
+        justify-content: end;
+    }
+
+    .buy p {
+        padding: 12px 40px;
+        border-radius: 50px;
+        background-color: #FA4A0C;
+        color: white;
+    }
+
+    main h2 {
+        margin-bottom: 65px;
+    }
+
+    main h2:first-child {
+        margin-top: 30px;
+    }
+
+    .hr {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    hr {
+        width: 65%;
+        margin: 65px 0;
+    }
+
+    #problem {
+        width: 75%;
+        height: 52.313rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-inline-start: 2.25rem;
+    }
+    .tproblem {
+        font-size: 1.55rem;
+        line-height: 3rem;
+    }
+
+    /* Footer */
+
+    #princFoot {
+        background-image: url(img/Rectangle47.png);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 537px;
+    }
+
+    .princFoot {
+        margin-block-start: 150px;
+        color: white;
+        font-size: 40px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+        width: 65%;
+        margin-block-end: 85px;
+        margin-inline: auto;
+    }
+
+    footer p {
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+        font-size: 0.7rem;
+        color: rgb(82, 82, 82);
+        width: 21%;
+    }
+
+    footer img {
+        width: 9.219rem;
+    }
+
+    footer div img{
+        width: 1.688rem;
+    }
+
+    #reseau {
+        display: flex;
+        align-items: center;
+        margin-inline-end: 3.125rem;
+    }
+
+    #reseau img:nth-child(2){
+        margin-inline: 0.813rem;
+    }
+
 }
 
-header ul {
-    display: flex;
-    justify-content: end;
-    width: 100%;
-    margin-top: 30px;
-}
+@media only screen and (min-width : 321px) and (max-width : 768px) {
+    * {
+        margin: 0;
+        list-style: none;
+        font-family: 'Nunito Sans', sans-serif;
+    }
 
-header ul li {
-    margin-right: 8rem;
-}
+    /* Header */
 
-header ul li p {
-    font-size: 18px;
-    font-family: 'Nunito Sans', sans-serif;
-}
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-block-end: 4%;
+    }
 
-header ul li:last-child {
-    margin-inline-end: 5rem;
-}
+    header ul {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 2%;
+        padding: 0;
+    }
 
-ul li:first-child {
-    color: #FA4A0C;
-}
-/* Main */
+    header ul li {
+        margin-inline: 1rem;
+    }
 
-#principal {
-    background-image: url(img/Rectangle\ 48.png);
-    background-size: cover;
-    width: 100%;
-    height: 618px;
-    display: flex;
-    flex-direction: column;
-}
+    header ul li p {
+        font-size: 18px;
+        font-family: 'Nunito Sans', sans-serif;
+    }
 
-#principal p {
-    color: white;
-    text-align: center;
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 700;
-}
+    ul li:first-child {
+        color: #FA4A0C;
+    }
+    /* Main */
 
-#principal p:first-child {
-    margin-top: 4em;
-    margin-block-end: 20px;
-    font-size: 25px;
-}
+    ul li:first-child {
+        margin-inline-start: 2rem;
+    }
 
-#principal p:not(:first-child) {
-    font-size: 70px;
-}
+    ul li:last-child {
+        margin-inline-end: 2rem;
+    }
 
-#imgPrincipal {
-    width: 100%;
-    opacity: 0%;
-}
+    #principal {
+        background-image: url(img/Rectangle\ 48.png);
+        background-size: cover;
+        width: 100%;
+        height: 618px;
+        display: flex;
+        flex-direction: column;
+    }
 
-main h2 {
-    text-align: center;
-    width: 100%;
-}
+    #principal p {
+        color: white;
+        text-align: center;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+    }
 
-#pizza {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
+    #principal p:first-child {
+        margin-top: 9rem;
+        margin-block-end: 20px;
+        font-size: 1rem;
+    }
 
-.pizza {
-    border: solid #FA4A0C;
-    width: 460px;
-}
+    #principal p:not(:first-child) {
+        font-size: 3rem;
+    }
 
-.pizza *:not(.buy, img){
-    margin: 15px;
-    margin-left: 20px;
-}
+    #imgPrincipal {
+        width: 100%;
+        opacity: 0%;
+    }
 
-.pizza img {
-    width: 420px;
-    margin: 20px 20px 0 20px;
-}
-.pizza p:not(.pBuy) {
-    font-size: 36px;
-    font-weight: bold;
-}
+    main h2 {
+        text-align: center;
+        width: 100%;
+        font-size: 2rem;
+    }
 
-.pizza .pBuy {
-    margin-top: 45px;
-}
+    #pizza {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
 
-.buy {
-    display: flex;
-    justify-content: end;
-}
+    .pizza {
+        border: solid #FA4A0C;
+        width: 20.875rem;
+        margin-block-end: 1.563rem ;
+    }
 
-.buy p {
-    padding: 12px 40px;
-    border-radius: 50px;
-    background-color: #FA4A0C;
-    color: white;
-}
+    .pizza *:not(.buy, img){
+        margin: 15px;
+        margin-left: 20px;
+    }
 
-main h2 {
-    margin-bottom: 65px;
-}
+    .pizza img {
+        width: 18.375rem;
+        margin: 20px 20px 0 20px;
+    }
+    .tprod {
+        font-size: 1.625rem;
+        font-weight: bold;
+    }
 
-main h2:first-child {
-    margin-top: 30px;
-}
+    .pizza .pBuy {
+        margin-top: 45px;
+    }
 
-.hr {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
+    .buy {
+        display: flex;
+        justify-content: end;
+    }
 
-hr {
-    width: 65%;
-    margin: 65px 0;
-}
+    .buy p {
+        padding: 12px 40px;
+        border-radius: 50px;
+        background-color: #FA4A0C;
+        color: white;
+    }
 
-/* Footer */
+    main h2 {
+        margin-bottom: 65px;
+    }
 
-#princFoot {
-    margin-block-start: 45em;
-    background-image: url(img/Rectangle47.png);
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 537px;
-}
+    main h2:first-child {
+        margin-top: 30px;
+    }
 
-.princFoot {
-    margin-block-start: 150px;
-    color: white;
-    font-size: 40px;
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 700;
-}
+    .hr {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 
-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 65%;
-    height: 80px;
-    margin-block-end: 85px;
-    margin-inline: auto;
-}
+    hr {
+        width: 65%;
+        margin: 65px 0;
+    }
 
-footer p {
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 700;
-    font-size: 0.7rem;
-    color: rgb(82, 82, 82);
-}
+    #problem {
+        width: 75%;
+        height: 52.313rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-inline-start: 2.25rem;
+    }
+    .tproblem {
+        font-size: 1.55rem;
+        line-height: 3rem;
+    }
 
-#reseau {
-    display: flex;
-    align-items: center;
-}
+    /* Footer */
 
-#reseau img:nth-child(2){
-    margin-inline: 30px;
+    #princFoot {
+        background-image: url(img/Rectangle47.png);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 537px;
+    }
+
+    .princFoot {
+        margin-block-start: 150px;
+        color: white;
+        font-size: 40px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+        margin-block-end: 85px;
+        margin-inline: auto;
+    }
+
+    footer p {
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+        font-size: 0.7rem;
+        color: rgb(82, 82, 82);
+        width: 21%;
+    }
+
+    footer img {
+        width: 9.219rem;
+    }
+
+    footer div img{
+        width: 1.688rem;
+    }
+
+    #reseau {
+        display: flex;
+        align-items: center;
+        margin-inline-end: 3.125rem;
+    }
+
+    #reseau img:nth-child(2){
+        margin-inline: 0.813rem;
+    }
+    
 }
