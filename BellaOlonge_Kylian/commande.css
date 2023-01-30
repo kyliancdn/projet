@@ -1,0 +1,111 @@
+input:not(.check) {
+    width: 320px;
+    height: 40px;
+}
+
+.check {
+    height: 35px;
+    width: 35px;
+    border-radius: 5px;
+    margin-inline-start: 7rem;
+}
+/* Input */
+
+main h2 {
+    
+}
+
+.comhd {
+    text-align: start;
+    font-size: 3rem;
+    margin-inline-start: 7rem;
+    margin-bottom: 0 ;
+    width: 60%;
+}
+
+h3 {
+    margin-inline-start: 7rem;
+    font-size: 2rem;
+}
+
+.coord {
+    /*display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; */
+    width: 85%;
+}
+.twcoord:last-child {
+    margin-block-start: 30px;
+}
+.twcoord {
+    display: flex;
+    justify-content: space-between;
+    margin-inline-start: 100px;
+    width: 65rem;
+}
+
+/* Quantité */
+
+#comm {
+    display: flex;
+}
+
+.supp {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-inline-start: 7rem;
+    margin-block-start: 30px;
+}
+
+.frite {
+    display: flex;
+    align-items: center;
+    margin-block-start: 50px;
+}
+
+.frite *:not(.check) {
+    margin-inline-start: 0.7rem;
+}
+
+#piz {
+    margin-block-start: 3.5rem;
+    margin-inline-start: 0;
+    width: 20rem;
+    color: #FA4A0C;
+}
+
+/* Boisson */
+
+.boi {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-block-start: 0.855rem;
+}
+
+.boi *:not(:first-child) {
+    margin-inline-start: 2rem;
+}
+
+.bois {
+    display: flex;
+}
+.many {
+    display: flex;
+    flex-direction: column;
+    margin-inline-start: 2rem;
+}
+
+.many * {
+    margin-top: 5px;
+}
+
+.margeht {
+    margin-block: 1.5rem;
+}
+
+#BoiDes {
+    display: flex;
+}
